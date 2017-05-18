@@ -1,0 +1,30 @@
+//
+//  LLHPhoto.pch
+//  LLHPhoto
+//
+//  Created by lovecj on 2016/8/18.
+//  Copyright © 2017年 lovecj. All rights reserved.
+//
+
+#ifndef LLHPhoto_pch
+#define LLHPhoto_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#pragma mark - Catagroy
+#import "UIColor+llh.h"
+
+
+
+#pragma mark -
+#import "AppConstant.h"
+
+
+
+#endif /* LLHPhoto_pch */

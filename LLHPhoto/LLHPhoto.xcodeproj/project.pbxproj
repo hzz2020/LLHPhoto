@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE241A211ECD3B580037F87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A201ECD3B580037F87E /* main.m */; };
+		EE241A2A1ECD3B580037F87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE241A281ECD3B580037F87E /* Main.storyboard */; };
+		EE241A2C1ECD3B580037F87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE241A2B1ECD3B580037F87E /* Assets.xcassets */; };
+		EE241A2F1ECD3B580037F87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE241A2D1ECD3B580037F87E /* LaunchScreen.storyboard */; };
+		EE241A431ECD3B980037F87E /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A391ECD3B980037F87E /* PhotoCell.m */; };
+		EE241A461ECD3B980037F87E /* PhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A401ECD3B980037F87E /* PhotoScrollView.m */; };
+		EE241A471ECD3B980037F87E /* TapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A421ECD3B980037F87E /* TapImageView.m */; };
+		EE241A4B1ECD3C0C0037F87E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A4A1ECD3C0C0037F87E /* AppDelegate.m */; };
+		EE241A511ECD42270037F87E /* UIColor+llh.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A501ECD42270037F87E /* UIColor+llh.m */; };
+		EE241A571ECD8E7B0037F87E /* UIVCPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A541ECD8E7B0037F87E /* UIVCPhoto.m */; };
+		EE241A581ECD8E7B0037F87E /* UIVCPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE241A561ECD8E7B0037F87E /* UIVCPhotoBrowser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE241A1C1ECD3B580037F87E /* LLHPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLHPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE241A201ECD3B580037F87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE241A291ECD3B580037F87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE241A2B1ECD3B580037F87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE241A2E1ECD3B580037F87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE241A301ECD3B580037F87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE241A381ECD3B980037F87E /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		EE241A391ECD3B980037F87E /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		EE241A3F1ECD3B980037F87E /* PhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoScrollView.h; sourceTree = "<group>"; };
+		EE241A401ECD3B980037F87E /* PhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoScrollView.m; sourceTree = "<group>"; };
+		EE241A411ECD3B980037F87E /* TapImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapImageView.h; sourceTree = "<group>"; };
+		EE241A421ECD3B980037F87E /* TapImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapImageView.m; sourceTree = "<group>"; };
+		EE241A491ECD3C0C0037F87E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE241A4A1ECD3C0C0037F87E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE241A4C1ECD3EA10037F87E /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
+		EE241A4D1ECD3F510037F87E /* LLHPhoto.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHPhoto.pch; sourceTree = "<group>"; };
+		EE241A4F1ECD42270037F87E /* UIColor+llh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+llh.h"; sourceTree = "<group>"; };
+		EE241A501ECD42270037F87E /* UIColor+llh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+llh.m"; sourceTree = "<group>"; };
+		EE241A531ECD8E7B0037F87E /* UIVCPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVCPhoto.h; sourceTree = "<group>"; };
+		EE241A541ECD8E7B0037F87E /* UIVCPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVCPhoto.m; sourceTree = "<group>"; };
+		EE241A551ECD8E7B0037F87E /* UIVCPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVCPhotoBrowser.h; sourceTree = "<group>"; };
+		EE241A561ECD8E7B0037F87E /* UIVCPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVCPhotoBrowser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE241A191ECD3B580037F87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE241A131ECD3B580037F87E = {
+			isa = PBXGroup;
+			children = (
+				EE241A1E1ECD3B580037F87E /* LLHPhoto */,
+				EE241A1D1ECD3B580037F87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE241A1D1ECD3B580037F87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A1C1ECD3B580037F87E /* LLHPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE241A1E1ECD3B580037F87E /* LLHPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A4C1ECD3EA10037F87E /* AppConstant.h */,
+				EE241A481ECD3C0C0037F87E /* AppDelegate */,
+				EE241A4E1ECD42070037F87E /* Catagroy */,
+				EE241A361ECD3B980037F87E /* Photo */,
+				EE241A2B1ECD3B580037F87E /* Assets.xcassets */,
+				EE241A1F1ECD3B580037F87E /* Supporting Files */,
+			);
+			path = LLHPhoto;
+			sourceTree = "<group>";
+		};
+		EE241A1F1ECD3B580037F87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A281ECD3B580037F87E /* Main.storyboard */,
+				EE241A2D1ECD3B580037F87E /* LaunchScreen.storyboard */,
+				EE241A301ECD3B580037F87E /* Info.plist */,
+				EE241A201ECD3B580037F87E /* main.m */,
+				EE241A4D1ECD3F510037F87E /* LLHPhoto.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE241A361ECD3B980037F87E /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A521ECD8E7B0037F87E /* Controller */,
+				EE241A3E1ECD3B980037F87E /* View */,
+				EE241A371ECD3B980037F87E /* Cell */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		EE241A371ECD3B980037F87E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A381ECD3B980037F87E /* PhotoCell.h */,
+				EE241A391ECD3B980037F87E /* PhotoCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EE241A3E1ECD3B980037F87E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A3F1ECD3B980037F87E /* PhotoScrollView.h */,
+				EE241A401ECD3B980037F87E /* PhotoScrollView.m */,
+				EE241A411ECD3B980037F87E /* TapImageView.h */,
+				EE241A421ECD3B980037F87E /* TapImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE241A481ECD3C0C0037F87E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A491ECD3C0C0037F87E /* AppDelegate.h */,
+				EE241A4A1ECD3C0C0037F87E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		EE241A4E1ECD42070037F87E /* Catagroy */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A4F1ECD42270037F87E /* UIColor+llh.h */,
+				EE241A501ECD42270037F87E /* UIColor+llh.m */,
+			);
+			path = Catagroy;
+			sourceTree = "<group>";
+		};
+		EE241A521ECD8E7B0037F87E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE241A531ECD8E7B0037F87E /* UIVCPhoto.h */,
+				EE241A541ECD8E7B0037F87E /* UIVCPhoto.m */,
+				EE241A551ECD8E7B0037F87E /* UIVCPhotoBrowser.h */,
+				EE241A561ECD8E7B0037F87E /* UIVCPhotoBrowser.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE241A1B1ECD3B580037F87E /* LLHPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE241A331ECD3B580037F87E /* Build configuration list for PBXNativeTarget "LLHPhoto" */;
+			buildPhases = (
+				EE241A181ECD3B580037F87E /* Sources */,
+				EE241A191ECD3B580037F87E /* Frameworks */,
+				EE241A1A1ECD3B580037F87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLHPhoto;
+			productName = LLHPhoto;
+			productReference = EE241A1C1ECD3B580037F87E /* LLHPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE241A141ECD3B580037F87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lovecj;
+				TargetAttributes = {
+					EE241A1B1ECD3B580037F87E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = V7SHS4UC6G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE241A171ECD3B580037F87E /* Build configuration list for PBXProject "LLHPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE241A131ECD3B580037F87E;
+			productRefGroup = EE241A1D1ECD3B580037F87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE241A1B1ECD3B580037F87E /* LLHPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE241A1A1ECD3B580037F87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE241A2F1ECD3B580037F87E /* LaunchScreen.storyboard in Resources */,
+				EE241A2C1ECD3B580037F87E /* Assets.xcassets in Resources */,
+				EE241A2A1ECD3B580037F87E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE241A181ECD3B580037F87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE241A511ECD42270037F87E /* UIColor+llh.m in Sources */,
+				EE241A431ECD3B980037F87E /* PhotoCell.m in Sources */,
+				EE241A581ECD8E7B0037F87E /* UIVCPhotoBrowser.m in Sources */,
+				EE241A471ECD3B980037F87E /* TapImageView.m in Sources */,
+				EE241A211ECD3B580037F87E /* main.m in Sources */,
+				EE241A461ECD3B980037F87E /* PhotoScrollView.m in Sources */,
+				EE241A4B1ECD3C0C0037F87E /* AppDelegate.m in Sources */,
+				EE241A571ECD8E7B0037F87E /* UIVCPhoto.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE241A281ECD3B580037F87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE241A291ECD3B580037F87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE241A2D1ECD3B580037F87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE241A2E1ECD3B580037F87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE241A311ECD3B580037F87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE241A321ECD3B580037F87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE241A341ECD3B580037F87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V7SHS4UC6G;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LLHPhoto/LLHPhoto.pch";
+				INFOPLIST_FILE = LLHPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = llh.cj.LLHPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EE241A351ECD3B580037F87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V7SHS4UC6G;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LLHPhoto/LLHPhoto.pch";
+				INFOPLIST_FILE = LLHPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = llh.cj.LLHPhoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE241A171ECD3B580037F87E /* Build configuration list for PBXProject "LLHPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE241A311ECD3B580037F87E /* Debug */,
+				EE241A321ECD3B580037F87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE241A331ECD3B580037F87E /* Build configuration list for PBXNativeTarget "LLHPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE241A341ECD3B580037F87E /* Debug */,
+				EE241A351ECD3B580037F87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE241A141ECD3B580037F87E /* Project object */;
+}
